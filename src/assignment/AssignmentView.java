@@ -155,7 +155,7 @@ public class AssignmentView extends JDialog
     }
     
     /**
-     * Handle the user's clik on the OK button
+     * Handle the user's click on the OK button
      * 
      * @param evt 
      */

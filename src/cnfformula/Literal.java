@@ -5,6 +5,8 @@
  */
 package cnfformula;
 
+import assignment.Assignment;
+
 /**
  *
  * @author jhesk
@@ -14,26 +16,35 @@ public class Literal {
     private boolean isNegated;
 
     // constructor 
+
     public Literal() {
     }
 
-    //Getters and setters
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
+    public Literal(String name, boolean isNegated) {
         this.name = name;
-    }
-
-    public boolean isIsNegated() {
-        return isNegated;
-    }
-
-    public void setIsNegated(boolean isNegated) {
         this.isNegated = isNegated;
     }
     
     
-    
+    //Getters and setters
+    public void setName(String name) {
+        this.name = name;
+    }
+ 
+    public String getName() {
+        return name;
+    }
+    public void setIsNegated(boolean isNegated){
+        this.isNegated = isNegated;
+    }
+    public boolean isNegated() {
+        return isNegated;
+    }
+
+    boolean verify(Assignment assn) {
+        boolean isTrue = assn.getValue(name);
+        if(isNegated){
+            return !isTrue;
+        } else return isTrue;
+    }
 }

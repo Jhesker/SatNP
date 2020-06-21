@@ -5,16 +5,37 @@
  */
 package assignment;
 
+
 import cnfformula.CnfFormula;
+import java.util.HashMap;
 
 /**
  *
  * @author jhesk
  */
 public class Assignment {
+    HashMap<String, Boolean> assignment;
+    CnfFormula formula;
 
     public Assignment(CnfFormula formula) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.formula = formula;
+        assignment = new HashMap();
+    }
+   
+    
+    // returns the list of variables to build the variable options in the Assignment view.
+    public String[] variables() {
+       return formula.literals();
+    }
+    
+    
+    public boolean getValue(String var){
+        return assignment.get(var);
+    }
+    
+    
+    public void setValue(String var, boolean val) {
+        assignment.put(var, val);
     }
     
 }

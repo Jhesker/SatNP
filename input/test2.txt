@@ -1,0 +1,1 @@
+(x1 v x3 v x4 v x5) ^ (nx1 v x3 v nx2) ^ (nx1 v x4 v nx2 v nx3) ^ (x2 v nx6)

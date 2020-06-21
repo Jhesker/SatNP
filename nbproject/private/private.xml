@@ -3,13 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/G:/Code/Java/SatNpApp/src/cnfformula/Literal.java</file>
-            <file>file:/G:/Code/Java/SatNpApp/src/assignment/AssignmentView.java</file>
-            <file>file:/G:/Code/Java/SatNpApp/src/cnfformula/CnfFormula.java</file>
-            <file>file:/G:/Code/Java/SatNpApp/src/assignment/Assignment.java</file>
-            <file>file:/G:/Code/Java/SatNpApp/src/cnfformula/Clause.java</file>
-            <file>file:/G:/Code/Java/SatNpApp/src/satnpapp/SatNpApp.java</file>
-            <file>file:/G:/Code/Java/SatNpApp/src/satnpapp/GPanel.java</file>
+            <file>file:/C:/Users/jhesk/OneDrive/Desktop/Code/satNP/SatNP/src/assignment/Assignment.java</file>
+            <file>file:/C:/Users/jhesk/OneDrive/Desktop/Code/satNP/SatNP/src/cnfformula/Literal.java</file>
+            <file>file:/C:/Users/jhesk/OneDrive/Desktop/Code/satNP/SatNP/src/cnfformula/Clause.java</file>
+            <file>file:/C:/Users/jhesk/OneDrive/Desktop/Code/satNP/SatNP/src/satnpapp/SatNpApp.java</file>
+            <file>file:/C:/Users/jhesk/OneDrive/Desktop/Code/satNP/SatNP/src/cnfformula/CnfFormula.java</file>
+            <file>file:/C:/Users/jhesk/OneDrive/Desktop/Code/satNP/SatNP/src/assignment/AssignmentView.java</file>
+            <file>file:/C:/Users/jhesk/OneDrive/Desktop/Code/satNP/SatNP/input/test2.txt</file>
         </group>
     </open-files>
 </project-private>
